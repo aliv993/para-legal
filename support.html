@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Para</title>
+<style>
+  :root {
+    --cream: #FDFBFA;
+    --ink: #1A1A1A;
+    --muted: #5C5C57;
+    --accent: #C2410C;
+    --line: #E8E2DC;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    padding: 32px 20px 80px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 8px; letter-spacing: -0.02em; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 32px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  h3 { font-size: 1.02rem; margin: 24px 0 8px; }
+  p, li { font-size: 1rem; color: var(--ink); }
+  p + p { margin-top: 12px; }
+  ul { padding-left: 22px; margin: 10px 0; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .summary {
+    border: 1.5px solid var(--accent);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin: 28px 0 8px;
+    background: #FFF7F2;
+  }
+  .summary h2 { margin: 0 0 10px; font-size: 1.1rem; color: var(--accent); }
+  .summary p { margin: 0; }
+  .faq {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 14px 0;
+  }
+  .faq h3 { margin: 0 0 6px; }
+  footer { max-width: 680px; margin: 56px auto 0; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+  <p class="meta">Para: Budget &amp; Expense Tracker</p>
+
+  <div class="summary">
+    <h2>Get in touch</h2>
+    <p>Email <a href="mailto:paraapp.support@proton.me">paraapp.support@proton.me</a>. Para is made by one independent developer, so replies usually take a day or two &mdash; every message is read.</p>
+  </div>
+
+  <p>It helps if you include your device model, your iOS version, and the app version (Preferences &rarr; About &rarr; Version). If something looks wrong on a specific screen, a screenshot answers most questions instantly.</p>
+
+  <h2>Common questions</h2>
+
+  <div class="faq">
+    <h3>I got a new phone. How do I move my data?</h3>
+    <p>Preferences &rarr; Data &rarr; <strong>Create backup</strong> on the old phone, and send the file to yourself however you like. On the new phone, install Para and use <strong>Restore from backup</strong> in the same place. Restoring replaces everything currently in the app, so do it before you start entering data.</p>
+  </div>
+
+  <div class="faq">
+    <h3>I deleted something by mistake.</h3>
+    <p>Deleting a category, account, goal, bill or loan hides it rather than erasing your history &mdash; past transactions keep their name, colour and icon. There is no undo in the app, so restore from a backup if you need it back.</p>
+  </div>
+
+  <div class="faq">
+    <h3>Where is my data stored?</h3>
+    <p>On your device, in a local database. It is never sent to us or to any server we control. See the <a href="privacy.html">privacy policy</a> for the full picture, including what your device backup contains.</p>
+  </div>
+
+  <div class="faq">
+    <h3>How do I manage or cancel my subscription?</h3>
+    <p>Preferences &rarr; Subscription &rarr; <strong>Manage subscription</strong>, which opens Apple&rsquo;s own subscription settings. You can also get there from Settings &rarr; your name &rarr; Subscriptions on your iPhone. Cancelling stops the next renewal; you keep access until the current period ends.</p>
+  </div>
+
+  <div class="faq">
+    <h3>I subscribed but the app still asks me to.</h3>
+    <p>Tap <strong>Restore purchases</strong> &mdash; on the plans screen, or in Preferences. That re-checks your Apple ID for an active subscription. If it still does not unlock, email us with the Apple ID region you purchased in.</p>
+  </div>
+
+  <div class="faq">
+    <h3>Can I ask for a refund?</h3>
+    <p>Refunds for App Store purchases are handled by Apple, not by us &mdash; request one at <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</p>
+  </div>
+
+  <div class="faq">
+    <h3>My reminders are not arriving.</h3>
+    <p>Check that reminders are on in Preferences, and that iOS notifications are allowed for Para in Settings &rarr; Notifications. Individual bills, subscriptions and loans can also be muted from the bell on their own screen.</p>
+  </div>
+
+  <h2>Requests and bug reports</h2>
+  <p>Both are welcome at the same address. If you are reporting something that looks like a bug, describing what you expected to happen alongside what did happen is the single most useful thing you can include.</p>
+</main>
+<footer>
+  Para: Budget &amp; Expense Tracker &middot; <a href="mailto:paraapp.support@proton.me">paraapp.support@proton.me</a> &middot; <a href="privacy.html">Privacy policy</a>
+</footer>
+</body>
+</html>
